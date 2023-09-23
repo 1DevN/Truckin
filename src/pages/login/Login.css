@@ -1,0 +1,170 @@
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 120px;
+    left: 52px;
+    height: 290px;
+    width:1100px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  
+  .h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .button {
+    background-color: #870b0b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #4c4950;
+  }
+  
+  .signup-link {
+    font-size: 16px;
+    color: rgb(246, 236, 236); /* Text color for the "New to Truckin?" message */
+    padding-top: 20px;
+  }
+  
+  .signup-link a {
+    text-decoration: none;
+    color: #fd0b17; /* Red color for the "Sign up now" link */
+    font-weight: bold;
+    margin-left: 5px; /* Add some space between the message and the link */
+    
+  }
+  
+  .type-box{
+    border-color: #fd0b17;
+    transition: transform 0.2s, border-size 0.2s;
+    width: 257px;
+  height: 26px;
+  }
+  .type-box:hover{
+    transform: scale(0.9);
+  }
+
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 120px;
+    left: 52px;
+    height: 290px;
+    width:1100px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  
+  .h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .button {
+    background-color: #870b0b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #4c4950;
+  }
+  
+  .signup-link {
+    font-size: 16px;
+    color: rgb(246, 236, 236); /* Text color for the "New to Truckin?" message */
+    padding-top: 20px;
+  }
+  
+  .signup-link a {
+    text-decoration: none;
+    color: #fd0b17; /* Red color for the "Sign up now" link */
+    font-weight: bold;
+    margin-left: 5px; /* Add some space between the message and the link */
+    
+  }
+  
+  .type-box{
+    border-color: #fd0b17;
+    transition: transform 0.2s, border-size 0.2s;
+    width: 375px;
+  height: 26px;
+  }
+  .type-box:hover{
+    transform: scale(0.9);
+  }
+
+  .submit{
+    background-color: red;
+  width: 96px;
+  height: 42px;
+  color: aliceblue;
+  font-size: large;
+  transition: transform 0.2s, border-size 0.2s;
+  }
+  .submit:hover{
+    transform: scale(1.05);
+  }
+  .body{
+    background-image: url("../../assets/truck.jpg");
+    background-size: cover;
+    background-position: 0px -100px;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
